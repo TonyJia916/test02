@@ -24,10 +24,10 @@ void printHybridAStarResult(const HybridAStartResult& result, const std::string&
 int main() {
 
   ParkingScenario parking_scenario;
-  // parking_scenario.start_pos = {-1.5, -3.72, 1.57};// {-1.634, 0.634, 1.8}
-  // parking_scenario.end_pos = {-1.634, 0.634, 1.8};  // {-1.5, -3.72, 1.57}
-  // parking_scenario.start_pos = {-0.726, -3.641, 1.8};// {-1.634, 0.634, 1.8}
-  // parking_scenario.end_pos = {-1.634, 0.634, 1.8};  // {-1.5, -3.72, 1.57}
+  parking_scenario.start_pos = {-1.5, -3.72, 1.57};// {-1.634, 0.634, 1.8}
+  parking_scenario.end_pos = {-1.634, 0.634, 1.8};  // {-1.5, -3.72, 1.57}
+  parking_scenario.start_pos = {-0.726, -3.641, 1.8};// {-1.634, 0.634, 1.8}
+  parking_scenario.end_pos = {-1.634, 0.634, 1.8};  // {-1.5, -3.72, 1.57}
 
 
   parking_scenario.start_pos = {-1.5, -0.72, 1.57};// {-1.634, 0.634, 1.8}

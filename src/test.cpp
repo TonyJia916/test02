@@ -7,7 +7,6 @@
 #include "result_plot/cpp_plot.h"
 
 namespace plt = matplotlibcpp;134
-
 void printHybridAStarResult(const HybridAStartResult& result, const std::string& file_name) {
     //std::ofstream file(file_name);
     std::ofstream file(file_name);

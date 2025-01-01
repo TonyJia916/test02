@@ -6,7 +6,7 @@
 #include "src/hybrid_a_star.h"
 #include "result_plot/cpp_plot.h"
 
-namespace plt = matplotlibcpp;
+namespace plt = matplotlibcpp;123
 
 void printHybridAStarResult(const HybridAStartResult& result, const std::string& file_name) {
     //std::ofstream file(file_name);

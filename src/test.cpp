@@ -9,17 +9,8 @@
  
 namespace plt = matplotlibcpp;13412367345111123456
 
-<<<<<<< HEAD
- 
 test feature/a  123  456 789 123
 test feature/b  123  456
- 
-=======
-
-test feature/a  123  456 789 123 456 789
-test feature/b  123
->>>>>>> feature/a
- 
 void printHybridAStarResult(const HybridAStartResult& result, const std::string& file_name) {
     //std::ofstream file(file_name);
     std::ofstream file(file_name);
